@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+            font-size: 13px;
+        }
+        th {
+            background-color: #d9d9d9;
+        }
+        .day {
+            font-weight: bold;
+            background-color: #efefef;
+        }
+        .course {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2 align="center">Weekly Class Time Table</h2>
+
+<table>
+    <tr>
+        <th>Day</th>
+        <th>1</th><th>2</th><th>3</th><th>4</th>
+        <th>5</th><th>6</th><th>7</th><th>8</th><th>9</th>
+    </tr>
+
+    <tr>
+        <td class="day">Mon</td>
+        <td><span class="course">Mathematics</span><br>24MT2012-T<br>S-15<br>H103</td>
+        <td><span class="course">Mathematics</span><br>24MT2012-T<br>S-15<br>H103</td>
+        <td><span class="course">Quantum Computing</span><br>24CS3207-L<br>S-11<br>H004</td>
+        <td><span class="course">Quantum Computing</span><br>24CS3207-L<br>S-11<br>H004</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-L<br>S-10<br>H004</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span class="course">Embedded Systems</span><br>24IN2202-P<br>S-10<br>HC-15C</td>
+        <td><span class="course">Embedded Systems</span><br>24IN2202-P<br>S-10<br>HC-15C</td>
+    </tr>
+
+    <tr>
+        <td class="day">Tue</td>
+        <td><span class="course">FSAD</span><br>24SDCS02-S<br>S-11<br>H003</td>
+        <td><span class="course">FSAD</span><br>24SDCS02-S<br>S-11<br>H003</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-P<br>S-10<br>H306</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-P<br>S-10<br>H306</td>
+        <td><span class="course">Advanced Data Structures</span><br>24CS2255F-P<br>S-13<br>HC-15C</td>
+        <td>-</td>
+        <td><span class="course">Advanced Data Structures</span><br>24CS2255F-P<br>S-13<br>HC-15C</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+
+    <tr>
+        <td class="day">Wed</td>
+        <td><span class="course">Theory of Computation</span><br>24CS3206-L<br>S-11<br>H007</td>
+        <td><span class="course">Theory of Computation</span><br>24CS3206-L<br>S-11<br>H007</td>
+        <td><span class="course">Mathematics</span><br>24MT2012-T<br>S-15<br>H005</td>
+        <td><span class="course">Mathematics</span><br>24MT2012-T<br>S-15<br>H005</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span class="course">Embedded Systems</span><br>24IN2202-L<br>S-10<br>H005</td>
+        <td><span class="course">Embedded Systems</span><br>24IN2202-L<br>S-10<br>H005</td>
+    </tr>
+
+    <tr>
+        <td class="day">Thu</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-L<br>S-10<br>H004</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-L<br>S-10<br>H004</td>
+        <td><span class="course">Advanced Data Structures</span><br>24CS2255F-L<br>S-13<br>H306</td>
+        <td><span class="course">Advanced Data Structures</span><br>24CS2255F-L<br>S-13<br>H306</td>
+        <td><span class="course">Quantum Computing</span><br>24CS3207-L<br>S-11<br>H305</td>
+        <td>-</td>
+        <td><span class="course">GLB</span><br>23UC0014-S<br>S-10<br>H101</td>
+        <td><span class="course">GLB</span><br>23UC0014-S<br>S-10<br>H101</td>
+        <td><span class="course">Embedded Systems</span><br>24IN2202-L<br>S-10<br>H005</td>
+    </tr>
+
+    <tr>
+        <td class="day">Fri</td>
+        <td><span class="course">Quantum Computing</span><br>24CS3207-P<br>S-11<br>H404</td>
+        <td><span class="course">Quantum Computing</span><br>24CS3207-P<br>S-11<br>H404</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-S<br>S-10<br>HC-15D</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-S<br>S-10<br>HC-15D</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-L<br>S-10<br>H306</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+
+    <tr>
+        <td class="day">Sat</td>
+        <td><span class="course">FSAD</span><br>24SDCS02-S<br>S-11<br>H103</td>
+        <td><span class="course">FSAD</span><br>24SDCS02-S<br>S-11<br>H103</td>
+        <td><span class="course">Theory of Computation</span><br>24CS3206-T<br>S-11<br>H004</td>
+        <td><span class="course">Theory of Computation</span><br>24CS3206-T<br>S-11<br>H004</td>
+        <td><span class="course">FSAD</span><br>24SDCS02-L<br>S-11<br>H103</td>
+        <td>-</td>
+        <td><span class="course">Cloud Systems</span><br>24CS2204A-T<br>S-10<br>H306</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
